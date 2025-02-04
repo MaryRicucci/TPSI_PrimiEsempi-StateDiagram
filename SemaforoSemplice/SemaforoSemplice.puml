@@ -1,0 +1,7 @@
+@startuml
+[*] --> Rosso
+Rosso --> Verde: TempoScaduto
+Verde --> Giallo : TempoScaduto
+Giallo --> Rosso : TempoScaduto
+
+@enduml
