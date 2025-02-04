@@ -6,4 +6,4 @@ Erogazione : la macchina sta erogando la bevanda
 Erogazione --> Resto : rilascio del resto/ se c'è del resto da dare
 Erogazione --> [*]
 Resto --> [*]
-@endumlù
+@enduml
