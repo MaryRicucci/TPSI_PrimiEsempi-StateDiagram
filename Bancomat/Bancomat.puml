@@ -1,0 +1,14 @@
+@startuml
+[*]--> Idle
+Idle --> InserimentoCarta
+InserimentoCarta--> InserimentoPIN
+InserimentoPIN --> SelezioneOperazione
+SelezioneOperazione --> Prelievo
+SelezioneOperazione --> Versamento
+SelezioneOperazione --> ControlloSaldo
+ControlloSaldo --> EspulsioneCarta
+Versamento --> EspulsioneCarta
+Prelievo --> EspulsioneCarta
+EspulsioneCarta --> [*]: Ritiro della carta
+
+@enduml
